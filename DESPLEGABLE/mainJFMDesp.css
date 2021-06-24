@@ -1,0 +1,90 @@
+body {
+  background-image: linear-gradient(to bottom, #A2D9CE, white); 
+  font-size: 75%;
+}
+
+.logo{
+  transform: 
+  translate(45px, -55px);
+}
+#titulo {
+	position: relative; 
+  top: 110px; 
+  font-weight: 600; 
+  font-family: 'Cuprum', sans-serif; 
+  color: #0A0E67; 
+  text-align: center;
+  } important!
+.subtitulo {
+  background-color: white;
+position: relative; 
+top: 110px; font-family: 'Cuprum', sans-serif; 
+color: #0A0E67; text-align: center;
+animation-duration: 3s; 
+animation-name: aparecer;
+}
+.navbar {
+  font-size: 150%
+}
+.navbar-brand {
+  font-size: 125%
+}
+section {
+  flex-flow: center; 
+  margin-left: 250px; 
+  margin-right: 250px; 
+  margin-bottom: 35px; 
+  margin-top: 35px
+}
+
+.parrafo1 {
+  text-align: center;
+}
+
+
+h2 {font-family: 'Cuprum', sans-serif; color: #0A0E67;}
+h3 {font-family: 'Cuprum', sans-serif; color: #0A0E67; animation-duration: 3s; animation-name: aparecer;}
+h4 {font-family: 'Cuprum', sans-serif;color: #0A0E67;}
+@keyframes aparecer {0%{opacity: 0;} 100% {opacity: 1;}}
+
+p {font-size: 140%; font-family: 'Cuprum', sans-serif; color: #0A0E67; text-align: center;}
+
+.container1{
+margin-bottom: 20px;}
+
+.row {background-color: white;}
+
+.parrafo1corto{
+font-family: 'Cuprum', sans-serif; 
+color: #0A0E67;
+font-size: 140%;}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) {
+  .container #menu #grilla {
+            grid-template-columns: repeat(3, 1fr);
+      }
+      
+
+@media only screen and (min-width: 768px) {
+  .container #menu #grilla {
+            grid-template-columns: repeat(4, 1fr);
+      }
+      
+@media only screen and (min-width: 1024px) {
+  .container #menu #grilla {
+            grid-template-columns: repeat(3, 1fr);
+      }
+      
+
+
